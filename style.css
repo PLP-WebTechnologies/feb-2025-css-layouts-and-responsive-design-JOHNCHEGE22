@@ -1,0 +1,38 @@
+ h3{
+  font-family:italics;
+  text-decoration:underline;
+  font-size:30px;
+text-align:center;
+}
+.container{
+  color:blue;
+  display:flex;
+  padding-left:80%;
+}
+img{
+  width:100%;
+  height:auto;
+}
+/*flexible box layout*/
+.flex-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+  flex-wrap:wrap;
+  height:80;
+}
+.flex-item{
+  flex:2;
+  padding:20px;
+  background-color:grey;
+}
+@media(max-width:600px){
+  .flex-container{
+  background-color: lightblue;
+}
+img{
+  display:none;
+}
+  
+}
